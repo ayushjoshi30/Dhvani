@@ -1,7 +1,7 @@
 # Dhvani
 Team Incognito's latest venture for reducing noise reduction
 
-So bassically main theme of our product is to reduce noise pollution in non hanking areas like schools and hospitals which can cause dangerous mental health issues like tinnitus 
+So bassically main theme of our product is to reduce noise pollution in non honking areas like schools and hospitals which can cause dangerous mental health issues like tinnitus 
 and insomnia.
 
 Workflow:
