@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.containergraph {
+    max-width: 800px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;          
+    justify-content: flex-end;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.streak-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.trophy-container {
+    margin-top: 20px;
+}
+
+#trophy {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.trophy-earned {
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* CSS styles are the same as provided before */
+
+
+.racing-track {
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+#track {
+    width: 400px; /* Adjust the track image width as needed */
+}
+
+#car {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 20px; /* Adjust this value to change the car's position on the racing track */
+    left: 140px; /* Adjust this value to change the car's initial position on the racing track */
+}
+
+#current-level {
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    bottom: 120px;
+    left: 210px; /* Adjust this value to change the level indicator position on the racing track */
+}
+
+.trophy-panel {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trophy-panel h2 {
+    color: #007BFF;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.trophy-panel p {
+    font-size: 24px;
+    margin: 0;
+    color: #000;
+}
